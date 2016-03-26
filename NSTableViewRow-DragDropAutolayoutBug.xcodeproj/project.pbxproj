@@ -11,6 +11,7 @@
 		C5A7A0A91CA7158F0054EEF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7A0A81CA7158F0054EEF1 /* main.m */; };
 		C5A7A0AB1CA7158F0054EEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A7A0AA1CA7158F0054EEF1 /* Assets.xcassets */; };
 		C5A7A0AE1CA7158F0054EEF1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5A7A0AC1CA7158F0054EEF1 /* MainMenu.xib */; };
+		C5A7A0B71CA71CEC0054EEF1 /* NSCustomSelectionRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7A0B61CA71CEC0054EEF1 /* NSCustomSelectionRowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		C5A7A0AA1CA7158F0054EEF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5A7A0AD1CA7158F0054EEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C5A7A0AF1CA715900054EEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A7A0B51CA71CEC0054EEF1 /* NSCustomSelectionRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCustomSelectionRowView.h; sourceTree = "<group>"; };
+		C5A7A0B61CA71CEC0054EEF1 /* NSCustomSelectionRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCustomSelectionRowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,8 @@
 			children = (
 				C5A7A0A41CA7158F0054EEF1 /* AppDelegate.h */,
 				C5A7A0A51CA7158F0054EEF1 /* AppDelegate.m */,
+				C5A7A0B51CA71CEC0054EEF1 /* NSCustomSelectionRowView.h */,
+				C5A7A0B61CA71CEC0054EEF1 /* NSCustomSelectionRowView.m */,
 				C5A7A0AA1CA7158F0054EEF1 /* Assets.xcassets */,
 				C5A7A0AC1CA7158F0054EEF1 /* MainMenu.xib */,
 				C5A7A0AF1CA715900054EEF1 /* Info.plist */,
@@ -141,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5A7A0A91CA7158F0054EEF1 /* main.m in Sources */,
+				C5A7A0B71CA71CEC0054EEF1 /* NSCustomSelectionRowView.m in Sources */,
 				C5A7A0A61CA7158F0054EEF1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
