@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5A7A0A61CA7158F0054EEF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7A0A51CA7158F0054EEF1 /* AppDelegate.m */; };
+		C5A7A0A91CA7158F0054EEF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7A0A81CA7158F0054EEF1 /* main.m */; };
+		C5A7A0AB1CA7158F0054EEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A7A0AA1CA7158F0054EEF1 /* Assets.xcassets */; };
+		C5A7A0AE1CA7158F0054EEF1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5A7A0AC1CA7158F0054EEF1 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5A7A0A11CA7158F0054EEF1 /* NSTableViewRow-DragDropAutolayoutBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSTableViewRow-DragDropAutolayoutBug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A7A0A41CA7158F0054EEF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5A7A0A51CA7158F0054EEF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5A7A0A81CA7158F0054EEF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5A7A0AA1CA7158F0054EEF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5A7A0AD1CA7158F0054EEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C5A7A0AF1CA715900054EEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5A7A09E1CA7158F0054EEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5A7A0981CA7158F0054EEF1 = {
+			isa = PBXGroup;
+			children = (
+				C5A7A0A31CA7158F0054EEF1 /* NSTableViewRow-DragDropAutolayoutBug */,
+				C5A7A0A21CA7158F0054EEF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5A7A0A21CA7158F0054EEF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5A7A0A11CA7158F0054EEF1 /* NSTableViewRow-DragDropAutolayoutBug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5A7A0A31CA7158F0054EEF1 /* NSTableViewRow-DragDropAutolayoutBug */ = {
+			isa = PBXGroup;
+			children = (
+				C5A7A0A41CA7158F0054EEF1 /* AppDelegate.h */,
+				C5A7A0A51CA7158F0054EEF1 /* AppDelegate.m */,
+				C5A7A0AA1CA7158F0054EEF1 /* Assets.xcassets */,
+				C5A7A0AC1CA7158F0054EEF1 /* MainMenu.xib */,
+				C5A7A0AF1CA715900054EEF1 /* Info.plist */,
+				C5A7A0A71CA7158F0054EEF1 /* Supporting Files */,
+			);
+			path = "NSTableViewRow-DragDropAutolayoutBug";
+			sourceTree = "<group>";
+		};
+		C5A7A0A71CA7158F0054EEF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5A7A0A81CA7158F0054EEF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5A7A0A01CA7158F0054EEF1 /* NSTableViewRow-DragDropAutolayoutBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A7A0B21CA715900054EEF1 /* Build configuration list for PBXNativeTarget "NSTableViewRow-DragDropAutolayoutBug" */;
+			buildPhases = (
+				C5A7A09D1CA7158F0054EEF1 /* Sources */,
+				C5A7A09E1CA7158F0054EEF1 /* Frameworks */,
+				C5A7A09F1CA7158F0054EEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSTableViewRow-DragDropAutolayoutBug";
+			productName = "NSTableViewRow-DragDropAutolayoutBug";
+			productReference = C5A7A0A11CA7158F0054EEF1 /* NSTableViewRow-DragDropAutolayoutBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5A7A0991CA7158F0054EEF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Milestone Made";
+				TargetAttributes = {
+					C5A7A0A01CA7158F0054EEF1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C5A7A09C1CA7158F0054EEF1 /* Build configuration list for PBXProject "NSTableViewRow-DragDropAutolayoutBug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5A7A0981CA7158F0054EEF1;
+			productRefGroup = C5A7A0A21CA7158F0054EEF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5A7A0A01CA7158F0054EEF1 /* NSTableViewRow-DragDropAutolayoutBug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5A7A09F1CA7158F0054EEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A7A0AB1CA7158F0054EEF1 /* Assets.xcassets in Resources */,
+				C5A7A0AE1CA7158F0054EEF1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5A7A09D1CA7158F0054EEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A7A0A91CA7158F0054EEF1 /* main.m in Sources */,
+				C5A7A0A61CA7158F0054EEF1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5A7A0AC1CA7158F0054EEF1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5A7A0AD1CA7158F0054EEF1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5A7A0B01CA715900054EEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C5A7A0B11CA715900054EEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C5A7A0B31CA715900054EEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSTableViewRow-DragDropAutolayoutBug/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milestonemade.NSTableViewRow-DragDropAutolayoutBug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5A7A0B41CA715900054EEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSTableViewRow-DragDropAutolayoutBug/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milestonemade.NSTableViewRow-DragDropAutolayoutBug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5A7A09C1CA7158F0054EEF1 /* Build configuration list for PBXProject "NSTableViewRow-DragDropAutolayoutBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A7A0B01CA715900054EEF1 /* Debug */,
+				C5A7A0B11CA715900054EEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A7A0B21CA715900054EEF1 /* Build configuration list for PBXNativeTarget "NSTableViewRow-DragDropAutolayoutBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A7A0B31CA715900054EEF1 /* Debug */,
+				C5A7A0B41CA715900054EEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5A7A0991CA7158F0054EEF1 /* Project object */;
+}
